@@ -34,10 +34,11 @@ $(document).ready(
         var bigPicName = "";
         for (var i = path.length - 1; i >= 0; i--) {
             if (path[i] == '/') {
-                break;
-            };
+                break; 
+};
             bigPicName += path[i];
         };
+	 
         bigPicName = bigPicName.split("").reverse().join("");
         bigPicPath = 'gallery/' + bigPicName;
 
